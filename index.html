@@ -3,8 +3,8 @@
 
   <title>Willy the Whale</title>
   <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-
   <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans" rel="stylesheet">
+    <!--<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>-->
 
   <style>
     body {
@@ -17,18 +17,23 @@
       padding: 0;
       overflow: hidden;
       background-color: grey;
-    }
+      }
 
     li {
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 3px;
       float: left;
       text-transform: uppercase;
+      width: 33.33%;
+      /*margin-left: 25px;*/
     }
 
     li a {
       display: block;
       color: #FFFFFF;
       text-align: center;
-      padding: 14px 201px;
+      /*width: 33.33%;*/
+      padding: 25px;
       text-decoration: none;
     }
 
@@ -43,30 +48,49 @@
       padding-bottom: 0px;
       font-family: 'Bowlby One SC', cursive;
       font-size: 64px;
-      letter-spacing: 2px;
+      letter-spacing: 6px;
+    }
+
+    #paragraph {
+      text-align: center;
+      margin-left: 44%;
     }
 
     p {
       font-family: 'Open Sans', sans-serif;
-      font-size: 15px;
-      color: #fff;
+      letter-spacing: 3px;
+      float: left;
+      text-transform: uppercase;
+      color: white;
     }
 
     #scratchgame {
+      margin-left: 33.33%;
+      /*margin-right: 500px;*/
+      width: 500px;
+      height: 400px;
     }
   </style>
+
+  <!--<script>
+    $('#yourStyle').circleType({radius: 800});
+  </script>-->
 
 </head>
 <body>
   <ul>
     <li><a url="">Welcome</a></li>
-    <li><a url="">Who We Are</a></li>
+    <li><a url="https://tsoutonglang.github.io/gwc-final-project/who.html">Who We Are</a></li>
     <li><a url="">Ways to Help</a></li>
   </ul>
   <div>
     <h1>Willy the Whale</h1>
-    <p>asdfghjkl;</p>
   </div>
+  <br>
+  <div id="paragraph">
+    <p>Will you help?</p>
+  </div>
+  <br>
   <div id="scratchgame"><iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/170264191" frameborder="0" allowfullscreen></iframe></div>
 </body>
 </html>
