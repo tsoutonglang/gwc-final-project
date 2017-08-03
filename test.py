@@ -58,3 +58,4 @@ bubbletitle.setpos(-100, -100)
 
 # Close window on click.
 mainloop()
+exitonclick()
