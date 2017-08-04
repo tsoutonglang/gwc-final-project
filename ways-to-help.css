@@ -1,7 +1,7 @@
 body {
     background-color: #1D2951;
   }
-
+/*Tool Bar Style Stuff from Here(begin)*/
   ul {
     list-style-type: none;
     margin: 0;
@@ -28,6 +28,7 @@ body {
   li a:hover {
       background-color: lightblue;
   }
+/*here(end)*/
 
   /*logo*/
   .logobox {
@@ -50,19 +51,36 @@ body {
     letter-spacing: 6px;
   }
   #paragraph {
-    text-align: center;
-    margin-left: 44%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    float: left;
+    color: grey;
+    background: white;
+    padding: 10px;
+    float: right;
+    margin-bottom: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    text-indent: 80px;
+    line-height: 2.0;
   }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 275%
+    color: lightgrey;
+  }
+
+  hr {
+    border-color: lightgrey;
+  }
+
   p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
     float: left;
     text-transform: uppercase;
-    color: white;
-  }
-  #scratchgame {
-    margin-left: 33.33%;
-    /*margin-right: 500px;*/
-    width: 500px;
-    height: 400px;
+    color: grey;
   }
