@@ -1,6 +1,7 @@
 body {
     background-color: #1D2951;
   }
+
 /*Tool Bar Style Stuff from Here(begin)*/
   ul {
     list-style-type: none;
@@ -41,6 +42,8 @@ body {
     margin-top: 1px;
     margin-bottom: 15px;
   }
+
+/*Willy the Whale Test for Logo*/
   h1 {
     color: #FFFFFF;
     text-align: center;
@@ -50,6 +53,8 @@ body {
     font-size: 64px;
     letter-spacing: 6px;
   }
+
+  /*Container for title and article*/
   #paragraph {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
@@ -65,18 +70,23 @@ body {
     text-indent: 80px;
     line-height: 2.0;
   }
+
+  /*Ways to Help*/
   h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 275%;
+    font-size: 275%
     color: grey;
   }
 
+
+/*Line that seperates title and the article*/
   hr {
     border-color: lightgrey;
   }
 
+/*the "Article" where all o fthe information is*/
   p {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;

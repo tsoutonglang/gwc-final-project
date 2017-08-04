@@ -2,99 +2,104 @@ body {
     background-color: #1D2951;
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: grey;
-    }
-  li {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
-    float: left;
-    text-transform: uppercase;
-    width: 33.33%;
-    /*margin-left: 25px;*/
-  }
-  li a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    /*width: 33.33%;*/
-    padding: 25px;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color: lightblue;
-  }
+/*ToolBar Code-Begins(Here)*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: grey;
+      }
 
-  /*logo*/
-  .logobox {
-    color: #FFFFFF;
-    text-align: center;
-    /*padding-bottom: 25px;*/
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 64px;
-    letter-spacing: 6px;
-    margin-top: 1px;
-    margin-bottom: 15px;
-  }
-  #WillyPicture {
-    margin: auto;
-  }
-
-  h1 {
-    color: #FFFFFF;
-    text-align: center;
-    padding: 100px 100px;
-    padding-bottom: 0px;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 55px;
-    letter-spacing: 12px;
-  }
-
-  /*
-    h1 span {
-      font:
-      height: 200px;
-      position: absolute;
-      width: 20px;
-      left: 0;
-      top: 0;
-      transform-origin: bottom center;
-    }
-    */
-  h2 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 275%
+    /*list*/
+    li {
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 3px;
+      float: left;
+      text-transform: uppercase;
+      width: 33.33%;
+      /*margin-left: 25px;*/
     }
 
-    hr {
-      border-color: lightgrey;
+    /*individual block characteristics*/
+    li a {
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      /*width: 33.33%;*/
+      padding: 25px;
+      text-decoration: none;
     }
 
+    /*Hover effect*/
+    li a:hover {
+      background-color: lightblue;
+    }
+/*ToolBar Code-Ends(Here)*/
+
+/*logo*/
+.logobox {
+  color: #FFFFFF;
+  text-align: center;
+  /*padding-bottom: 25px;*/
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 64px;
+  letter-spacing: 6px;
+  margin-top: 1px;
+  margin-bottom: 15px;
+  }
+    /*Logo Image*/
+    #WillyPicture {
+      margin: auto;
+    }
+
+    /*Whilly the Whale Title*/
+    h1 {
+      color: #FFFFFF;
+      text-align: center;
+      padding: 100px 100px;
+      padding-bottom: 0px;
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 55px;
+      letter-spacing: 12px;
+      }
+
+  /*Container for article (includes title and text)*/
   #paragraph {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
-    float: left;
-    color: grey;
-    background: white;
-    padding: 10px;
-    float: right;
-    margin-bottom: 50px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    width: 95%;
-    text-indent: 80px;
-    line-height: 2.0;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  float: left;
+  color: grey;
+  background: white;
+  padding: 10px;
+  float: right;
+  margin-bottom: 50px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 95%;
+  text-indent: 80px;
+  line-height: 2.0;
   }
 
-  #scratchgame {
-    margin-left: 33.33%;
-    /*margin-right: 500px;*/
-    width: 500px;
-    height: 400px;
-  }
+    /*Welcome to the Game Header*/
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 275%
+      }
+
+    /*Line that seperates Header from Article*/
+    hr {
+        border-color: lightgrey;
+      }
+
+
+
+    /*Scratch Game Window*/
+    #scratchgame {
+      margin-left: 33.33%;
+      /*margin-right: 500px;*/
+      width: 500px;
+      height: 400px;
+      }
