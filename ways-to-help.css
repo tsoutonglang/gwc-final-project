@@ -9,13 +9,15 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-    }
+  }
+
   li.tool {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
     float: left;
     text-transform: uppercase;
-    width: 33.3%;
+    width: 33.33%;
+    padding: 0;
     /*margin-left: 25px;*/
   }
   li a {
