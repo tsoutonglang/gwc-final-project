@@ -70,7 +70,6 @@ li a:hover {
   margin-left: 2.5%;
   margin-right: 2.5%;
   width: 95%;
-  text-indent: 80px;
   line-height: 2.0;
   }
 
@@ -100,16 +99,6 @@ hr {
   /*height: 400px;*/
   margin: 25px;
   font-family: 'Open Sans', sans-serif;
-}
-
-#paragraph {
-  font-family: 'Open Sans', sans-serif;
-  /*letter-spacing: 3px;*/
-  float: left;
-  color: #1D2951;
-  background: white;
-  padding: 10px;
-  width: 95%;
 }
 
 .infobox {
