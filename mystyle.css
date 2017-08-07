@@ -89,14 +89,15 @@ hr {
 
 /*Scratch Game Window*/
 #scratchgame {
+  margin-left: 0%;
   float: right;
   width: 50%;
-  height: auto;
+  height: 450px;
 }
 .instructions {
   float: left;
   width: 45%;
-  height: auto;
+  height: 400px;
   margin: 25px;
   font-family: 'Open Sans', sans-serif;
 }
