@@ -3,19 +3,19 @@ body {
   }
 
 /*Tool Bar Style Stuff from Here(begin)*/
-  ul {
+  ul.tool-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: grey;
     }
-  li {
+  li.tool {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
     float: left;
     text-transform: uppercase;
-    width: 33.33%;
+    width: 33.3%;
     /*margin-left: 25px;*/
   }
   li a {
@@ -63,6 +63,7 @@ body {
     background: white;
     padding: 10px;
     float: right;
+    width: 80%;
     margin-bottom: 50px;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -93,4 +94,49 @@ body {
     float: left;
     text-transform: uppercase;
     color: grey;
+  }
+
+  h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+  }
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 150%;
+  color: grey;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+  #tiplist {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    float: left;
+    text-transform: uppercase;
+    color: lightgrey;
+    background-color: transparent;
+    indent: 10%;
+  }
+
+  li {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: grey;
+    background-color: transparent;
+    width: 95%;
+    padding: 5px;
+
   }
