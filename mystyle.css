@@ -3,16 +3,14 @@ body {
   }
 
 /*ToolBar Code-Begins(Here)*/
-    ul {
+ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: grey;
       }
-
-    /*list*/
-    li {
+li {
       font-family: 'Open Sans', sans-serif;
       letter-spacing: 3px;
       float: left;
@@ -20,9 +18,7 @@ body {
       width: 33.33%;
       /*margin-left: 25px;*/
     }
-
-    /*individual block characteristics*/
-    li a {
+li a {
       display: block;
       color: #FFFFFF;
       text-align: center;
@@ -30,12 +26,9 @@ body {
       padding: 25px;
       text-decoration: none;
     }
-
-    /*Hover effect*/
-    li a:hover {
+li a:hover {
       background-color: lightblue;
     }
-/*ToolBar Code-Ends(Here)*/
 
 /*logo*/
 .logobox {
@@ -81,27 +74,39 @@ body {
   line-height: 2.0;
   }
 
-    /*Welcome to the Game Header*/
-    h2 {
-      font-family: 'Open Sans', sans-serif;
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 275%
-      }
+/*Welcome to the Game Header*/
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 275%
+}
 
+/*Line that seperates Header from Article*/
+hr {
+  border-color: lightgrey;
+}
 
+/*Scratch Game Window*/
+#scratchgame {
+  float: right;
+  width: 50%;
+  height: auto;
+}
+.instructions {
+  float: left;
+  width: 45%;
+  height: auto;
+  margin: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
 
-    /*Line that seperates Header from Article*/
-    hr {
-        border-color: lightgrey;
-      }
-
-
-
-    /*Scratch Game Window*/
-    #scratchgame {
-      margin-left: 33.33%;
-      /*margin-right: 500px;*/
-      width: 500px;
-      height: 400px;
-      }
+#paragraph {
+  font-family: 'Open Sans', sans-serif;
+  /*letter-spacing: 3px;*/
+  float: left;
+  color: #1D2951;
+  background: white;
+  padding: 10px;
+  width: 95%;
+}
