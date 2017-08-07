@@ -92,12 +92,12 @@ hr {
   margin-left: 0%;
   float: right;
   width: 50%;
-  height: 450px;
+  /*height: 450px;*/
 }
 .instructions {
   float: left;
   width: 45%;
-  height: 400px;
+  /*height: 400px;*/
   margin: 25px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -110,4 +110,9 @@ hr {
   background: white;
   padding: 10px;
   width: 95%;
+}
+
+.infobox {
+  width: 100%;
+  float: left;
 }
