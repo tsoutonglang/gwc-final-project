@@ -49,7 +49,7 @@ li a:hover {
   height: relative;
 }
 p.biostuff {
-  color: #1D2951;
+  color: gray;
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
   float: right;
