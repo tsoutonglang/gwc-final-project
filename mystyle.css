@@ -47,14 +47,13 @@ li a:hover {
 }
 
 /*Whilly the Whale Title*/
-h1 {
-  color: #FFFFFF;
+h2 {
+  color: gray;
   text-align: center;
-  padding: 100px 100px;
-  padding-bottom: 0px;
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 55px;
-  letter-spacing: 12px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 275%;
 }
 
 /*Container for article (includes title and text)*/
@@ -71,14 +70,6 @@ h1 {
   margin-right: 2.5%;
   width: 95%;
   line-height: 2.0;
-}
-
-/*Welcome to the Game Header*/
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 275%
 }
 
 /*Line that seperates Header from Article*/

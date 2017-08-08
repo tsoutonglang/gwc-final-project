@@ -63,11 +63,13 @@ li a:hover {
 
 /*Ways to Help*/
 h2 {
+  color: gray;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  color: gray;
-  }
+  font-size: 275%;
+}
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -88,6 +90,7 @@ h5 {
 /*Line that seperates title and the article*/
 hr {
   border-color: lightgrey;
+  margin: 15px;
 }
 
 /*the "Article" where all o fthe information is*/
