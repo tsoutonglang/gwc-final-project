@@ -3,14 +3,16 @@ body {
   }
 
 /*ToolBar Code-Begins(Here)*/
-ul {
+    ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: grey;
       }
-li {
+
+    /*list*/
+    li {
       font-family: 'Open Sans', sans-serif;
       letter-spacing: 3px;
       float: left;
@@ -18,7 +20,9 @@ li {
       width: 33.33%;
       /*margin-left: 25px;*/
     }
-li a {
+
+    /*individual block characteristics*/
+    li a {
       display: block;
       color: #FFFFFF;
       text-align: center;
@@ -26,9 +30,12 @@ li a {
       padding: 25px;
       text-decoration: none;
     }
-li a:hover {
+
+    /*Hover effect*/
+    li a:hover {
       background-color: lightblue;
     }
+/*ToolBar Code-Ends(Here)*/
 
 /*logo*/
 .logobox {
@@ -62,7 +69,7 @@ li a:hover {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   float: left;
-  color: #1D2951;
+  color: grey;
   background: white;
   padding: 10px;
   float: right;
@@ -70,51 +77,28 @@ li a:hover {
   margin-left: 2.5%;
   margin-right: 2.5%;
   width: 95%;
+  text-indent: 80px;
   line-height: 2.0;
   }
 
-/*Welcome to the Game Header*/
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 275%
-}
+    /*Sources*/
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 275%
+      }
 
-/*Line that seperates Header from Article*/
-hr {
-  border-color: lightgrey;
-}
 
-/*Scratch Game Window*/
-/*.gamecontain {
-  width: 100%;
-  outline: lightgray;
-  outline-style: ridge;
-  outline-width: 2px;
-  padding: 10px;
-  margin: 10px;
-  height: auto;
-}*/
-#scratchgame {
-  margin-left: 0%;
-  float: right;
-  width: 50%;
-  margin-bottom: 10px;
-  /*height: 450px;*/
-  /*outline: lightgray;
-  border-style: ridge;
-  border-width: 2px;*/
-}
-.instructions {
-  float: left;
-  width: 45%;
-  /*height: 400px;*/
-  margin: 25px;
-  font-family: 'Open Sans', sans-serif;
-}
 
-.infobox {
-  width: 100%;
-  float: left;
-}
+    /*Line that seperates Header from Article*/
+    hr {
+        border-color: lightgrey;
+      }
+
+      #source {
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 3px;
+        color: white;
+        text-align: center;
+      }
