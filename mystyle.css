@@ -59,7 +59,7 @@ h2 {
 /*Container for article (includes title and text)*/
 #paragraph {
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   float: left;
   color: gray;
   background: white;
