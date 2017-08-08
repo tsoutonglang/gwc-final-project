@@ -2,32 +2,34 @@ body {
   background-color: #1D2951;
 }
 
-/*Tool Bar Style Stuff from Here(begin)*/
-ul.tool-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: grey;
-}
-li.tool {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 3px;
-  float: left;
-  text-transform: uppercase;
-  width: 33.33%;
-  padding: 0;
-}
+/*ToolBar Code-Begins(Here)*/
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: grey;
+      }
+li {
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 3px;
+      float: left;
+      text-transform: uppercase;
+      width: 25%;
+      /*margin-left: 25px;*/
+    }
 li a {
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 25px;
-  text-decoration: none;
-}
+      display: block;
+      color: #FFFFFF;
+      text-align: center;
+      /*width: 33.33%;*/
+      padding: 25px;
+      text-decoration: none;
+    }
 li a:hover {
-  background-color: lightblue;
-}
+      background-color: lightblue;
+    }
+
 
 /*logo*/
 .logobox {
@@ -40,15 +42,8 @@ li a:hover {
   margin-bottom: 15px;
 }
 
-/*Willy the Whale Test for Logo*/
-h1 {
-  color: #FFFFFF;
-  text-align: center;
-  padding: 100px 100px;
-  padding-bottom: 0px;
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 64px;
-  letter-spacing: 6px;
+/*Logo Image*/
+#WillyPicture {
 }
 
 /*Container for title and article*/
@@ -56,11 +51,10 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   float: left;
-  color: grey;
+  color: #1D2951;
   background: white;
   padding: 10px;
   float: right;
-  width: 80%;
   margin-bottom: 50px;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -144,11 +138,6 @@ p.biostuff {
   margin-bottom: 100px;
   width: 95%;
 }
-img.waterpic {
-  padding: 10px;
-  width: 20%;
-  height: auto;
-  float: left;
 =======
 
   #tiplist {
@@ -196,8 +185,6 @@ img.waterpic {
   }
 
 
-.header {
+h3 {
   float: left;
-  clear:left;
->>>>>>> 456694d70075dc35bfc665d9ff291134ed1435ef
 }
