@@ -47,7 +47,7 @@ li a:hover {
   background: #fff;
   margin: 0px 0px 10px 0px;
   height: relative;
-  width: 95%;
+  /*width: 95%;*/
 }
 p.biostuff {
   color: gray;
