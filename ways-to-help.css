@@ -106,7 +106,7 @@ h4 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-<<<<<<< HEAD
+
 #tiplist {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
@@ -116,14 +116,7 @@ h4 {
   background-color: transparent;
   indent: 10%;
 }
-li {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: grey;
-  background-color: transparent;
-  width: 95%;
-  padding: 5px;
+  
 }
 .waterchange{
   color: #778899;
@@ -139,37 +132,4 @@ p.biostuff {
   margin-bottom: 100px;
   width: 95%;
 }
-=======
 
-  #tiplist {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
-    float: left;
-    text-transform: uppercase;
-    color: lightgrey;
-    background-color: transparent;
-    indent: 10%;
-  }
-
-  .waterchange{
-    color: #778899;
-    background: #778899;
-    margin: 0px 0px 10px 0px;
-    height: relative;
-  }
-  p.biostuff {
-    color: #778899;
-    font-family:  "Times New Roman", Times, serif;
-    padding: 50px;
-    float: right;
-    margin-bottom: 100px;
-    width: 95%;
-  }
-  img.waterpic {
-    padding: 10px;
-    width: 40%;
-    display: block;
-    height: auto;
-    margin:auto;
-
-  }
