@@ -41,7 +41,6 @@ li a:hover {
   margin-top: 1px;
   margin-bottom: 15px;
 }
-
 /*Logo Image*/
 #WillyPicture {
 }
@@ -51,7 +50,7 @@ li a:hover {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   float: left;
-  color: #1D2951;
+  color: gray;
   background: white;
   padding: 10px;
   float: right;
@@ -67,7 +66,14 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size: 275%
+  color: #1D2951;
+  }
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1D2951;
   }
 }
 
@@ -82,7 +88,7 @@ p {
   letter-spacing: 3px;
   float: left;
   text-transform: uppercase;
-  color: grey;
+  color: gray;
 }
 h5 {
   margin-top: 0px;
@@ -91,33 +97,9 @@ h5 {
   text-transform: uppercase;
   text-align: center;
   font-size: 200%;
-}
-h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 150%;
-  color: grey;
-  
-}
-h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  color: #1D2951;
 }
 
-#tiplist {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 3px;
-  float: left;
-  text-transform: uppercase;
-  color: lightgrey;
-  background-color: transparent;
-  indent: 10%;
-}
-  
-}
 .waterchange{
   color: #778899;
   background: #778899;
@@ -132,4 +114,3 @@ p.biostuff {
   margin-bottom: 100px;
   width: 95%;
 }
-
