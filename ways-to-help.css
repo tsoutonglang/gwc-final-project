@@ -1,6 +1,40 @@
 body {
   background-color: #1D2951;
 }
+h2 {
+  color: gray;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 275%;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: gray;
+  margin-bottom: 0px;
+  }
+h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: gray;
+}
+hr {
+  border-color: lightgrey;
+  margin: 15px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0px;
+  float: left;
+  text-transform: uppercase;
+  color: gray;
+}
 
 /*ToolBar Code-Begins(Here)*/
 ul {
@@ -30,7 +64,6 @@ li a:hover {
       background-color: lightblue;
     }
 
-
 /*logo*/
 .logobox {
   color: #FFFFFF;
@@ -41,11 +74,8 @@ li a:hover {
   margin-top: 1px;
   margin-bottom: 15px;
 }
-/*Logo Image*/
-#WillyPicture {
-}
 
-/*Container for title and article*/
+/*everything goes in this*/
 #paragraph {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
@@ -61,58 +91,9 @@ li a:hover {
   line-height: 2.0;
 }
 
-/*Ways to Help*/
-h2 {
-  color: gray;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 275%;
-}
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: left;
-  color: gray;
-  }
-
-h5 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: gray;
-}
-
-/*Line that seperates title and the article*/
-hr {
-  border-color: lightgrey;
-  margin: 15px;
-}
-
-/*the "Article" where all o fthe information is*/
-p {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0px;
-  float: left;
-  text-transform: uppercase;
-  color: gray;
-}
-
 .waterchange{
   color: #778899;
   background: #778899;
   margin: 0px 0px 10px 0px;
   height: relative;
-}
-p.biostuff {
-  color: #778899;
-  font-family:  "Times New Roman", Times, serif;
-  padding: 50px;
-  float: right;
-  margin-bottom: 100px;
-  width: 95%;
 }
