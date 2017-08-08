@@ -151,17 +151,6 @@ p.biostuff {
     indent: 10%;
   }
 
-  li {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: grey;
-    background-color: transparent;
-    width: 95%;
-    padding: 5px;
-
-  }
-
   .waterchange{
     color: #778899;
     background: #778899;
