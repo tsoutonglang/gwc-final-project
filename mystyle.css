@@ -62,7 +62,7 @@ li a:hover {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   float: left;
-  color: grey;
+  color: #1D2951;
   background: white;
   padding: 10px;
   float: right;
@@ -87,11 +87,24 @@ hr {
 }
 
 /*Scratch Game Window*/
+/*.gamecontain {
+  width: 100%;
+  outline: lightgray;
+  outline-style: ridge;
+  outline-width: 2px;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+}*/
 #scratchgame {
   margin-left: 0%;
   float: right;
   width: 50%;
+  margin-bottom: 10px;
   /*height: 450px;*/
+  /*outline: lightgray;
+  border-style: ridge;
+  border-width: 2px;*/
 }
 .instructions {
   float: left;
