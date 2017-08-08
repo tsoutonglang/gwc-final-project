@@ -76,6 +76,14 @@ h3 {
   color: #1D2951;
   }
 }
+h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1D2951;
+}
 
 /*Line that seperates title and the article*/
 hr {
@@ -89,15 +97,6 @@ p {
   float: left;
   text-transform: uppercase;
   color: gray;
-}
-h5 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 200%;
-  color: #1D2951;
 }
 
 .waterchange{
